@@ -2,7 +2,7 @@
 
 <br>
 
-<p align="center"><img src="https://socialify.git.ci/kranthikumarkaranam/react-meals/image?description=1&amp;font=Raleway&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
+![react-meals](https://socialify.git.ci/kranthikumarkaranam/react-meals/image?description=1&font=Jost&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fkranthikumarkaranam%2FASSETS%2Fcad75677adec49b261613ac813090b3aaf1267aa%2FReactJS.svg%3Ftoken%3DA2FXAMWTQHAUBNFH6EB4T5DEXJATA&name=1&owner=1&theme=Auto)
 
 <p align="center" id="description" > ReactMeals is a user-friendly web application built with React, allowing users to explore a variety of delicious meals and conveniently place delivery orders. With its intuitive interface, enticing meal selection, and streamlined checkout process, ReactMeals offers a seamless and satisfying dining experience from the comfort of your home.</p>
 
