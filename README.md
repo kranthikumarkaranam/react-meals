@@ -2,7 +2,6 @@
 
 <br>
 
-
 <p align="center" id="description" > ReactMeals is a user-friendly web application built with React, allowing users to explore a variety of delicious meals and conveniently place delivery orders. With its intuitive interface, enticing meal selection, and streamlined checkout process, ReactMeals offers a seamless and satisfying dining experience from the comfort of your home.</p>
 
 <br>
