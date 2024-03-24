@@ -1,44 +1,58 @@
 {
-  "homepage": "http://kranthikumarkaranam.github.io/react-meals",
-  "name": "react-meals",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.2",
-    "@testing-library/user-event": "^14.5.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^3.5.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  }
+	"homepage": "http://kranthikumarkaranam.github.io/react-meals",
+	"name": "react-meals",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^6.4.2",
+		"@testing-library/react": "^14.2.2",
+		"@testing-library/user-event": "^14.5.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^3.5.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --ignore-path .eslintignore",
+		"lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\" --ignore-path .eslintignore",
+		"lint:output": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --ignore-path .eslintignore --output-file .eslint.report.txt --format compact --color",
+		"lint:conflict-prettier": "eslint-config-prettier --ignore-path .eslintignore 'src/**/*.{js,jsx,ts,tsx}'",
+		"prettier:write": "prettier --ignore-path .prettierignore --write \"src/**/*.{js,jsx,ts,tsx,css,md}\" --config ./.prettierrc",
+		"prettier:check": "prettier --ignore-path .prettierignore --check \"src/**/*.{js,jsx,ts,tsx,css,md}\" --config ./.prettierrc"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-jsx-a11y": "^6.8.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-react": "^7.34.1",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"gh-pages": "^6.1.1",
+		"prettier": "3.2.5"
+	}
 }

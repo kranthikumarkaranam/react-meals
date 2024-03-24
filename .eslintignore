@@ -1,0 +1,15 @@
+# Ignore built files
+build/
+dist/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore package & lock files
+package.json
+package-lock.json
+yarn.lock
+
+# Ignore version control files
+.git/
+.gitignore
